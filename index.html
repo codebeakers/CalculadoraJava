@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcuradora Java</title>
+    <h1>Calculadora Java</h1>
+</head>
+
+<body>
+    <form id="miFormulario" name="">
+        <label>numero 1:</label>
+        <input type="number" name="" id="valor 1" autofocus
+        placeholder="Escribe un numero">
+        <button onclick="limpiar();">limpiar campos</button>
+
+        <br>
+        <br>
+
+        <label>numero 2:</label>
+        <input type="number" name="" id="valor 2"
+        placeholder="Escribe otro numero"> 
+
+        <br>
+        <br>
+
+        <button type="button" onclick="sumar();">sumar</button>
+        <button type="button" onclick="restar();">restar</button>
+        <button type="button" onclick="multiplicar();">multiplicar</button>
+        <button type="button" onclick="dividir();">dividir</button>
+
+        <p>el resultado es: <span id="el-resultado"></span></p>
+
+    
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
