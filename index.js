@@ -25,7 +25,13 @@ function multiplicar  () {
 function dividir  () { 
     var x = parseInt(document.getElementById('valor 1').value);
     var y = parseInt(document.getElementById('valor 2').value);
-    document.getElementById('el-resultado').innerHTML = x/y;
+    if (y === 0 ) {
+         document.getElementById('el-resultado').innerHTML = "no se puede dividir en cero";
+    } else {
+        document.getElementById('el-resultado').innerHTML = x/y;
+    }
+   
 }
+
 
 
